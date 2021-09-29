@@ -33,7 +33,7 @@ This is a back-end application that is run in node.js, utilizing the Sequelize O
 ## Usage 
 
 Start this app by Opening the command line and executing ' npm start' or 'node server' 
-Place routes into Insomnia, respectively, to retrieve desired data from the CRUD functions that the application operates.
+Place routes into Insomnia, respectively, to retrieve desired data from the CRUD functions that the application operates. Refer to code comments for each route type in the "routes/api" folder to operate Insomnia with the appropriate route endpoints. 
                 
 
 
