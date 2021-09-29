@@ -1,4 +1,4 @@
-# E-commerce Back End Starter Code
+# E-commerce Pro
 
 ![alt ]();
 
@@ -6,8 +6,7 @@
 
 ## Description 
 
-This application is run in node.js and utilizes the Sequelize ORM to interact with the MySQL database
-                
+This is a back-end application that is run in node.js, utilizing the Sequelize ORM to interact with the MySQL database. 
 
 ## Table of Contents
 
@@ -25,14 +24,17 @@ This application is run in node.js and utilizes the Sequelize ORM to interact wi
  ### Technologies Used:
   Node.js, 
   MySQL, 
-  Sequelize (ORM)
+  Sequelize (ORM),
   Express
+
+  Insomnia API (external software)
 
 
 ## Usage 
 
 Start this app by Opening the command line and executing ' npm start' or 'node server' 
-
+Place routes into Insomnia, respectively, to retrieve desired data from the CRUD functions that the application operates.
+                
 
 
 ## Credits
