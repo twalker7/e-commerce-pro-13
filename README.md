@@ -20,19 +20,21 @@ This is a back-end application that is run in node.js, utilizing the Sequelize O
 
 
 ## Installation
-
+Direct your command line to the root folder of the application and run 'npm install' to install the needed dependencies /
+Start MySQL server
  ### Technologies Used:
-  Node.js, 
-  MySQL, 
-  Sequelize (ORM),
-  Express
+  Node.js, \
+  MySQL2, \
+  Sequelize (ORM), \
+  Express 
 
-  Insomnia API (external software)
+  Insomnia API (external application software)
 
 
 ## Usage 
 
-Start this app by Opening the command line and executing ' npm start' or 'node server' 
+Start this app by Opening the command line and executing 'npm start' or 'node server' \
+'npm run seed' to seed the tables in the MySQL with data\
 Place routes into Insomnia, respectively, to retrieve desired data from the CRUD functions that the application operates. Refer to code comments for each route type in the "routes/api" folder to operate Insomnia with the appropriate route endpoints. 
                 
 
