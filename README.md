@@ -1,10 +1,12 @@
 # E-commerce Pro
 
-![alt ]();
 
 
 
 ## Description 
+
+![alt Insomnia console](Develop/app-screenshot-ecommerce.png)
+
 
 This is a back-end application that is run in node.js, utilizing the Sequelize ORM to interact with the MySQL database. 
 
