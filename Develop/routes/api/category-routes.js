@@ -32,8 +32,7 @@ router.get('/:id', (req, res) => {
   });
 });
 
-router.post('/', (req, res) => {
-  // create a new category
+
   router.post('/', (req, res) => {
     // create a new category
     Category.create(req.body)
@@ -44,10 +43,8 @@ router.post('/', (req, res) => {
     });
   });
   
-});
 
-router.put('/:id', (req, res) => {
-  // update a category by its `id` value
+
   router.put('/:id', (req, res) => {
     // update a category by its `id` value
     Category.update(req.body, {
@@ -62,7 +59,7 @@ router.put('/:id', (req, res) => {
     });
   });
   
-});
+
 
 router.delete('/:id', (req, res) => {
   // delete a category by its `id` value
